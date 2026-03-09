@@ -153,7 +153,7 @@ h1 {
     display: flex;
     width: 100%;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: baseline;
 }
 .next input{
     width: 30px;
