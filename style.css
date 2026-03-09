@@ -151,7 +151,7 @@ h1 {
 
 .next {
     display: flex;
-    width: 30%;
+    width: 40%;
     gap: 10px;
     justify-content: flex-start;
 }
