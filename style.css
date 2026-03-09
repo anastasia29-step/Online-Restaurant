@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.scetion{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 10px;
+}
 ul {
     display: flex !important;
     justify-content: center;
