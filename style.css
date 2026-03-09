@@ -127,6 +127,7 @@ h1 {
     height: 100vh;
     padding: 60px;
     gap: 10px;
+    justify-content: center;
 }
 /* .leftSide{
     width: 30%;
