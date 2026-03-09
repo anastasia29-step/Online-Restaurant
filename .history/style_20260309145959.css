@@ -14,29 +14,9 @@ ul {
 }
 
 .FirstLine {
-    height: 45vh;
+    height: 50vh;
     background-image: url(./photo/inner_banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 170px;
-    padding-top: 20px;
+    background-size: contain;
 }
-
-.beside {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-.beside .right a {
-    text-decoration: none;
-    color: white;
-}
-
-.beside .right img {
-    width: 60px;
-}
-
-

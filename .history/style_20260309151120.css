@@ -25,14 +25,11 @@ ul {
 
 .beside {
     display: flex;
-    justify-content: space-between;
 }
-
-
 
 .beside .right a {
     text-decoration: none;
-    color: white;
+    color: withe;
 }
 
 .beside .right img {

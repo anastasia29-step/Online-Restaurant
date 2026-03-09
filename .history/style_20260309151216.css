@@ -25,10 +25,10 @@ ul {
 
 .beside {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
 }
-
-
 
 .beside .right a {
     text-decoration: none;

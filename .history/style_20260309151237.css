@@ -26,9 +26,9 @@ ul {
 .beside {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+   
 }
-
-
 
 .beside .right a {
     text-decoration: none;
