@@ -27,6 +27,7 @@ ul::after{
     height: 6px;
     background-image: url("border.png");
     background-repeat: repeat-x;
+    background-position: bottom;
 }
 .FirstLine {
     height: 45vh;
