@@ -181,12 +181,12 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
 }
 
 .card {
     width: 270px;
-    height: 410px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
