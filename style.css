@@ -129,9 +129,9 @@ h1 {
     gap: 10px;
     justify-content: center;
 }
-/* .leftSide{
+.leftSide{
     width: 30%;
-} */
+}
 .filteredCard {
     width: 250px;
     height: 390px;
