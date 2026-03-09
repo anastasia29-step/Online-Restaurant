@@ -1,5 +1,5 @@
 let ul = document.querySelector("ul")
-let right = document.querySelector(".right")
+let right = document.querySelector(".rightSide")
 
 fetch("https://restaurant.stepprojects.ge/api/Categories/GetAll")
     .then((pasuxi) => pasuxi.json())
