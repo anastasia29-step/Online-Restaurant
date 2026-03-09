@@ -21,7 +21,7 @@ ul {
     display: flex !important;
     justify-content: center;
     height: 90px;
-    width: 100%;
+    width: 1110px;
     flex-wrap: wrap;
     list-style: none;
     gap: 20px;
@@ -121,7 +121,7 @@ h1 {
 
 .sectionCard {
     display: flex;
-    width: 100%;
+    width: 1110px;
     height: 100vh;
     padding: 60px;
     gap: 10px;
