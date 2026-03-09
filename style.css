@@ -151,9 +151,9 @@ h1 {
 
 .next {
     display: flex;
-    width: 100%;
+    width: 30%;
     gap: 10px;
-    justify-content: baseline;
+    justify-content: flex-start;
 }
 .next input{
     width: 30px;
