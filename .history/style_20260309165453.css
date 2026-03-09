@@ -66,15 +66,15 @@ ul::after{
     margin-top: -2px;
 }
 
-.beside .right .a:hover + a img {
-    transform: translateX(50px);
+.beside .right .a + .beside .right img {
+  transform: translateX(50px);
 }
 
 .beside .right img {
     width: 60px;
     margin-top: -21px;
     margin-left: -25px;
-    transition: transform 0.9s;
+    transition: transform 0.3s;
 }
 
 .FirstLine .bottom h1 {
@@ -106,45 +106,4 @@ ul li:hover{
 
 h1 {
     margin: auto;
-}
-
-.sectionCard{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 60px;
-    gap: 15px;
-}
-.filteredCard{
-    width: 280px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    background-color: #F1F1F1;
-    border: 1px solid grey;
-}
-.first{
-    display: flex;
-    width:100%;
-
-}
-.next{
-    display: flex;
-    gap: 10px;
-}
-.filteredCard button{
-    height: 40px;
-    width: 180px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.filteredCard button:hover{
-    background-color: yellow;
 }
