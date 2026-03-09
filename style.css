@@ -129,9 +129,6 @@ h1 {
 .left{
     width: 30%;
 }
-.right{
-    width: 70%;
-}
 .filteredCard {
     width: 250px;
     height: 390px;
@@ -181,8 +178,8 @@ h1 {
 }
 
 .right {
+    width: 70%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
 }
