@@ -21,7 +21,13 @@ ul {
     border-bottom: 3px wavy red;
     align-items: center;
 }
-
+ul::after{
+    content: "";
+    display: block;
+    height: 6px;
+    background-image: url("border.png");
+    background-repeat: repeat-x;
+}
 .FirstLine {
     height: 45vh;
     background-image: url(./photo/inner_banner.jpg);
