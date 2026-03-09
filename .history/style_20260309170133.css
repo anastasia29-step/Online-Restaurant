@@ -3,20 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.section {
+.section{
     display: flex;
     flex-direction: column;
     padding: 60px;
     gap: 10px;
 }
 
-.section h1 {
-    font-style: bold;
-    font-family: "Roboto Slab", serif;
-    font-weight: 900;
+section .section h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
-
 ul {
     display: flex !important;
     justify-content: center;
@@ -29,8 +25,7 @@ ul {
     border-bottom: 3px wavy red;
     align-items: center;
 }
-
-ul::after {
+ul::after{
     content: "";
     display: block;
     height: 6px;
@@ -38,7 +33,6 @@ ul::after {
     background-repeat: repeat-x;
     background-position: bottom;
 }
-
 .FirstLine {
     height: 48vh;
     background-image: url(./photo/inner_banner.jpg);
@@ -76,7 +70,7 @@ ul::after {
     margin-top: -2px;
 }
 
-.beside .right .a:hover+a img {
+.beside .right .a:hover + a img {
     transform: translateX(50px);
 }
 
@@ -108,8 +102,7 @@ ul li {
     align-items: center;
 
 }
-
-ul li:hover {
+ul li:hover{
     background-color: red;
     color: white;
 
@@ -119,52 +112,21 @@ h1 {
     margin: auto;
 }
 
-.sectionCard {
+.sectionCard{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     padding: 60px;
     gap: 15px;
 }
-
-.filteredCard {
-    width: 310px;
-    height: 390px;
+.filteredCard{
+    width: 280px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #F1F1F1;
     border: 1px solid grey;
-    border-radius: 5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-
-.first {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-
-}
-
-.next {
-    display: flex;
-    gap: 10px;
-}
-
-.filteredCard button {
-    height: 40px;
-    width: 180px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.filteredCard button:hover {
-    background-color: yellow;
 }
