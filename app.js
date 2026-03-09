@@ -12,7 +12,7 @@ let left = document.querySelector(".left")
 
 fetch("https://restaurant.stepprojects.ge/api/Products/GetFiltered")
 .then(pasuxi => pasuxi.json())
-.then(data => console.log(data);
+.then(data => console.log(data)
 )
 
 
