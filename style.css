@@ -126,7 +126,12 @@ h1 {
     padding: 60px;
     gap: 15px;
 }
-
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
 .filteredCard {
     width: 250px;
     height: 390px;
