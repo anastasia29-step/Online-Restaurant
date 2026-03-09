@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    margin: 30px;
+}
+
+.FirstLine {
+    height: 50vh;
+    background-image: url(./photo/inner_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
