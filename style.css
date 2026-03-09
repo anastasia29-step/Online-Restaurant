@@ -152,8 +152,12 @@ h1 {
 .next {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
 }
-
+.next input{
+    width: 40px;
+    height: 40px;
+}
 .filteredCard button {
     height: 40px;
     width: 180px;
