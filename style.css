@@ -54,6 +54,9 @@ ul li {
     font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 ul li:hover{
