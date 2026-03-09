@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -35,6 +38,29 @@
             <li onclick="showAll()">All</li>
         </ul>
     </section>
+    <div class="sectionCard">
+        <div class="left">
+            <div class="filteredCard">
+                <div class="first">
+                    <h2>Filter</h2>
+                    <i class="fa-solid fa-filter"></i>
+                </div>
+                <h2>Spiciness:</h2>
+                <input type="range">
+                <div class="next">
+                    <input type="checkbox">
+                    <h2>No Nuts</h2>
+                </div>
+                <div class="next">
+                    <input type="checkbox">
+                    <h2>Vegetarian Only</h2>
+                </div>
+                <button class="reset" onclick="reset()">RESET</button>
+                <button class="apply" onclick="apply()">APPLY FILTER</button>
+            </div>
+        </div>
+    </div>
+
 
 
 
