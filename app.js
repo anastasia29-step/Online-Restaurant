@@ -37,7 +37,7 @@ function card(item) {
                     </div>
                 </div>
                 <div class="bottom">
-                    <h1>$ ${item.price} </h1>
+                    <h1 style="font-size: 24px">$ ${item.price} </h1>
                     <button>Add to cart</button>
                 </div>
             </div>`
