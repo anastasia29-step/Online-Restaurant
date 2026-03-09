@@ -9,7 +9,7 @@ fetch("https://restaurant.stepprojects.ge/api/Categories/GetAll")
     })
 
 let sectionCard = document.querySelector(".sectionCard")
-let left = document.querySelector(".left")
+let left = document.querySelector(".leftSide")
 
 fetch("https://restaurant.stepprojects.ge/api/Products/GetFiltered")
     .then(pasuxi => pasuxi.json())
