@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,6 +35,29 @@
             <li onclick="showAll()">All</li>
         </ul>
     </section>
+    <div class="sectionCard">
+        <div class="left">
+            <div class="filterCard">
+                <div class="first">
+                    <h2>Filter</h2>
+                    <i class="fa-solid fa-filter"></i>
+                </div>
+                <h2>Spiciness:</h2>
+                <input type="range">
+                <div class="next">
+                    <input type="checkbox">
+                    <h2>No Nuts</h2>
+                </div>
+                <div class="next">
+                    <input type="checkbox">
+                    <h2>Vegetarian Only</h2>
+                </div>
+                <button class="reset" onclick="reset()">RESET</button>
+                <button class="apply" onclick="apply()">APPLY FILTER</button>
+            </div>
+        </div>
+    </div>
+
 
 
 

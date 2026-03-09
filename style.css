@@ -75,3 +75,20 @@ ul li:hover{
 h1 {
     margin: auto;
 }
+
+.sectionCard{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap: 15px;
+}
+.filteredCard{
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
