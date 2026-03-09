@@ -28,11 +28,11 @@ function card(item) {
                 <p>Spiciness: ${item.spiciness}</p>
                 <div class="sides">
                     <div class="checks">
-                        <input type="checkbox" ${item.nuts} ? checked : "">
+                        <input type="checkbox" ${item.nuts} ? "checked" : "">
                         <p>Nuts</p>
                     </div>
                     <div class="checks">
-                        <input type="checkbox" >
+                        <input type="checkbox" ${item.vegeterian} ? "checked" : "">
                         <p>Vegeterian</p>
                     </div>
                 </div>
