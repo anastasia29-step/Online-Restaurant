@@ -8,6 +8,7 @@ ul {
     display: flex !important;
     justify-content: center;
     height: 90px;
+    width: 100%;
     flex-wrap: wrap;
     list-style: none;
     gap: 20px;
