@@ -10,12 +10,9 @@
     gap: 10px;
 }
 
-.section h1 {
-    font-style: bold;
-    font-family: "Roboto Slab", serif;
-    font-weight: 900;
+section .section h1 {
+    
 }
-
 ul {
     display: flex !important;
     justify-content: center;
