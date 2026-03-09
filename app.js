@@ -32,12 +32,12 @@ function card(item) {
                         <p>Nuts</p>
                     </div>
                     <div class="checks">
-                        <input type="checkbox">
+                        <input type="checkbox" >
                         <p>Vegeterian</p>
                     </div>
                 </div>
                 <div class="bottom">
-                    <h1>$ </h1>
+                    <h1>$ ${item.price} </h1>
                     <button>Add to cart</button>
                 </div>
             </div>`
