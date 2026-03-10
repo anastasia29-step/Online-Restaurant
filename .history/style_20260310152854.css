@@ -87,7 +87,7 @@ ul::after {
     padding-top: 20px;
 }
 
-.FirstLine .right:first-child:hover {
+.FirstLine .right:nth-child(1):hover {
     color: #FFCC00;
 }
 
@@ -158,11 +158,11 @@ ul li:hover {
     padding: 60px;
     gap: 10px;
     justify-content: center;
-    margin-top: -200px;
 }
 .leftSide{
     width: 30%;
     padding: 80px;
+    background-color: #FFCC00;
 }
 .filteredCard {
     width: 250px;
@@ -217,6 +217,7 @@ ul li:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    background-color: red;
 }
 
 .card {
