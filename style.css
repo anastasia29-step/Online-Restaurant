@@ -229,7 +229,7 @@ ul li:hover {
 .filteredCard button {
     height: 40px;
     width: 180px;
-    background-color: red;
+    background-color: #FF0000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -244,7 +244,7 @@ ul li:hover {
 }
 .range::-webkit-slider-runnable-track{
     height: 10px;
-    background: red;
+    background: #FF0000;
     border-radius: 10px;
 }
 .range::-webkit-slider-thumb{
