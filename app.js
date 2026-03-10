@@ -14,7 +14,19 @@ let left = document.querySelector(".leftSide")
 let range = document.querySelector(".range")
 let checks = document.querySelector(".check")
 
+function apply() {
 
+    let spiciness = document.querySelector(".range").value
+    let noNuts = document.querySelectorAll(".check")[0].checked
+    let vegetarian = document.querySelectorAll(".check")[1].checked
+
+    let nuts = !noNuts
+
+    fetch(`https://restaurant.stepprojects.ge/api/Products/GetFiltered?vegeterian=${vegetarian}&nuts=${nuts}&spiciness=${spiciness}`)
+        .then(res => res.json())
+        .then(data => console.log(data))
+
+}
 
 fetch("https://restaurant.stepprojects.ge/api/Products/GetAll")
     .then(pasuxi => pasuxi.json())
@@ -44,11 +56,11 @@ function card(item) {
             </div>`
 }
 
-window.addEventListener("scroll", function(){
+window.addEventListener("scroll", function () {
 
-    if(window.scrollY > 50){
+    if (window.scrollY > 50) {
         nav.classList.add("active")
-    }else{
+    } else {
         nav.classList.remove("active")
     }
 
