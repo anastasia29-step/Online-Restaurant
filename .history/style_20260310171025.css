@@ -357,9 +357,5 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
-    background: white;
-    border: 4px solid transparent;
-    border-image: url("photo/bt_border.png") 30 round;
-    font-size: 18px;
+    border: 1px solid black;
 }
