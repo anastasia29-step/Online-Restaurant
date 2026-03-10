@@ -317,6 +317,9 @@ ul li:hover {
     border-radius: 17px;
     cursor: pointer;
 }
+.card:hover{
+    box-shadow: 0 0 20px black;
+}
 
 .card img {
     width: 100%;
