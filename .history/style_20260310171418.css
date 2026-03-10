@@ -358,11 +358,4 @@ ul li:hover {
     justify-content: center;
     align-items: center;
     border: 2px dashed rgb(26, 26, 26);
-    background-color: transparent;
-    transition: 0.3s;
-}
-
-.card .bottom button:hover {
-    background-color: #FF0000;
-    color: white;
 }
