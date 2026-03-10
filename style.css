@@ -205,7 +205,6 @@ ul li:hover {
 
 .range input[type="range"] {
     width: 100%;
-    -webkit-appearance: none;
 }
 .range input[type="range"]::-webkit-slider-runnable-track {
   height: 6px;
