@@ -87,7 +87,7 @@ ul::after {
     padding-top: 20px;
 }
 
-.FirstLine .right:first-child:hover {
+.FirstLine .right:first-child {
     color: #FFCC00;
 }
 
