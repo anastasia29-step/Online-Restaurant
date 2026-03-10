@@ -102,8 +102,7 @@ ul::after {
 }
 
 .section h1 {
-    font-weight: 500;
-    font-size: 35px;
+    font-weight: 400;
 }
 
 ul li {
