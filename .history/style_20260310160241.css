@@ -16,7 +16,7 @@
 section.section img {
     width: 80%;
     height: 5px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +211,21 @@ ul li:hover {
     gap: 10px;
     justify-content: flex-start;
 }
+
+.range input[type="range"] {
+    width: 100%;
+}
+.range input[type="range"]::-webkit-slider-runnable-track {
+  height: 6px;
+  background: red;
+  border-radius: 10px;
+}
+.range input[type="range"]::-moz-range-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
 .next input {
     width: 30px;
     height: 30px;
@@ -226,7 +241,6 @@ ul li:hover {
     cursor: pointer;
     transition: 0.5s;
 }
-
 
 .filteredCard button:hover {
     background-color: #FFCC00;
