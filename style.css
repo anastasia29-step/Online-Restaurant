@@ -207,14 +207,24 @@ ul li:hover {
 
 .next {
     display: flex;
-    width: 40%;
+    align-items: center;
+    width: 200px;
+    height: 40px;
     gap: 10px;
-    justify-content: flex-start;
 }
-
-.next input {
-    width: 30px;
-    height: 30px;
+.next .check{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+.check:hover{
+    border: 2px solid black;
+}
+.next p{
+    font-size: 16px;
 }
 
 .filteredCard button {
