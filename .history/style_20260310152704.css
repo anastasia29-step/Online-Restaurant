@@ -87,8 +87,8 @@ ul::after {
     padding-top: 20px;
 }
 
-.FirstLine.right:nth-child(1):hover {
-    color: #FFCC00;
+.FirstLine.right:nth-child(1) {
+
 }
 
 .beside .right a {
