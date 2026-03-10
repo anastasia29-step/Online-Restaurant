@@ -85,14 +85,14 @@ ul::after {
     height: 100px;
     background-image: url("photo/border.png");
     background-repeat: repeat-x;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-image: url("photo/border.png");
-    background-repeat: repeat-x;
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background-image:url("photo/border.png");
+    background-repeat:repeat-x;
 }
 
 .beside .right {
@@ -212,6 +212,20 @@ ul li:hover {
     justify-content: flex-start;
 }
 
+.range input[type="range"] {
+    width: 100%;
+}
+.range input[type="range"]::-webkit-slider-runnable-track {
+  height: 6px;
+  background: red;
+  border-radius: 10px;
+}
+.range input[type="range"]::-moz-range-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
 .next input {
     width: 30px;
     height: 30px;
@@ -228,41 +242,6 @@ ul li:hover {
     transition: 0.5s;
 }
 
-.range {
-    width: 90%;
-    appearance: none;
-    -webkit-appearance: none;
-}
-.range::-webkit-slider-runnable-track{
-    height: 10px;
-    background: red;
-    border-radius: 10px;
-}
-.range::-webkit-slider-thumb{
-    appearance: none;
-    -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
-    border: 1px solid grey;
-    cursor: pointer;
-    margin-top: -6px;
-}
-.range::-moz-range-track{
-    height: 6px;
-    background-color: red;
-    border-radius: 10px;
-}
-.range::-moz-range-thumb{
-    width: 18px;
-    height: 18px;
-    background-color: white;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-
 .filteredCard button:hover {
     background-color: #FFCC00;
 }
@@ -273,10 +252,11 @@ ul li:hover {
     flex-wrap: wrap;
     padding: 40px;
     gap: 25px;
+    /* background-color: red; */
 }
 
 .card {
-    width: 250px;
+    width: 240px;
     height: 420px;
     display: flex;
     flex-direction: column;
