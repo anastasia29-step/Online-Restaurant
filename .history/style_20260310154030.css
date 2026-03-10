@@ -65,7 +65,8 @@ ul::after {
 
 .beside.active {
     backdrop-filter: blur(10px);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
+    position: relative;
 }
 
 .beside.active::after {
