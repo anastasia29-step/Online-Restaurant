@@ -155,7 +155,6 @@ ul li {
     cursor: pointer;
     transition: 0.3s;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -206,24 +205,14 @@ ul li:hover {
 
 .next {
     display: flex;
-    align-items: center;
-    width: 200px;
-    height: 40px;
+    width: 40%;
     gap: 10px;
+    justify-content: flex-start;
 }
-.next .check{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    appearance: none;
-    border: 2px solid grey;
-    border-radius: 2px;
-}
-.check:hover{
-    border: 2px solid black;
-}
-.next p{
-    font-size: 16px;
+
+.next input {
+    width: 30px;
+    height: 30px;
 }
 
 .filteredCard button {
@@ -244,7 +233,7 @@ ul li:hover {
 }
 .range::-webkit-slider-runnable-track{
     height: 10px;
-    background: #FF0000;
+    background: red;
     border-radius: 10px;
 }
 .range::-webkit-slider-thumb{
