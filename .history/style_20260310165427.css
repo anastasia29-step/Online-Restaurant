@@ -313,7 +313,7 @@ ul li:hover {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 15px;
-    border: 2px solid rgb(163, 163, 163);
+    border: 1px solid rgb(163, 163, 163);
     border-radius: 17px;
 }
 
