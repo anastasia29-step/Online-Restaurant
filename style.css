@@ -155,13 +155,13 @@ ul li:hover {
     width: 100%;
     padding: 60px;
     justify-content: center;
-    margin-top: -180px;
-    background-color: aqua;
+    margin-top: -150px;
+    /* background-color: aqua; */
 }
 .leftSide{
     width: 30%;
     padding: 40px;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-left: 50px;
 }
 .filteredCard {
@@ -216,8 +216,9 @@ ul li:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 40px;
     gap: 30px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .card {
