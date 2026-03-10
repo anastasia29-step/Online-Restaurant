@@ -360,7 +360,13 @@ ul li:hover {
     transition: 0.3s;
 }
 
-.card .bottom button:hover {
-    background-color: #FFCC00;
-    color: black;
+.card .bottom button::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-image: url("photo/bt_border.png");
+    background-repeat: repeat-x;
 }
