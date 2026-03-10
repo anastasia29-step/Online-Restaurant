@@ -197,11 +197,6 @@ ul li:hover {
     margin-left: 50px;
 
 }
-.filteredCard p{
-    margin-top: -5px;
-    margin-bottom: 10px;
-}
-
 .first {
     display: flex;
     width: 100%;
@@ -214,8 +209,8 @@ ul li:hover {
     width: 200px;
     height: 40px;
     gap: 10px;
-    margin-top: -30px;
-    margin-bottom: -10px;
+    /* margin-top: -30px;
+    margin-bottom: -10px; */
 }
 
 .next .check {
@@ -249,14 +244,12 @@ ul li:hover {
     font-weight: 800;
 }
 .reset{
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
-
 .range {
     width: 90%;
     appearance: none;
     -webkit-appearance: none;
-    margin-top: -40px;
 }
 
 .range::-webkit-slider-runnable-track {
