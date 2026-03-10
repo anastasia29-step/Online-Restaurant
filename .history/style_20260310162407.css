@@ -16,6 +16,7 @@
 section.section img {
     width: 80%;
     height: 5px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +35,7 @@ ul {
     width: 1400px;
     flex-wrap: wrap;
     list-style: none;
-    font-weight: 400;
-    flex-wrap: wrap;
-    gap: 30px;
+    gap: 23px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
 }
@@ -171,7 +170,6 @@ ul li:hover {
     display: flex;
     width: 100%;
     padding: 60px;
-    margin-top: -140px;
     justify-content: center;
 }
 
@@ -206,24 +204,14 @@ ul li:hover {
 
 .next {
     display: flex;
-    align-items: center;
-    width: 200px;
-    height: 40px;
+    width: 40%;
     gap: 10px;
+    justify-content: flex-start;
 }
-.next .check{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    appearance: none;
-    border: 2px solid grey;
-    border-radius: 2px;
-}
-.check:hover{
-    border: 2px solid black;
-}
-.next p{
-    font-size: 16px;
+
+.next input {
+    width: 30px;
+    height: 30px;
 }
 
 .filteredCard button {
