@@ -11,11 +11,23 @@ fetch("https://restaurant.stepprojects.ge/api/Categories/GetAll")
 
 let sectionCard = document.querySelector(".sectionCard")
 let left = document.querySelector(".leftSide")
+let range = document.querySelector(".range")
+let checks = document.querySelector(".check")
 
-fetch("https://restaurant.stepprojects.ge/api/Products/GetFiltered")
+function apply(){
+    let spiciness = range.value
+    let noNuts = checks[0].checked
+    let vegeterian = checks[1].checked
+    fetch('https://restaurant.stepprojects.ge/api/Products/GetFiltered?vegeterian=${vegeterian}&nuts=${noNuts}&spiciness=${spiciness}')
     .then(pasuxi => pasuxi.json())
-    .then(data => console.log(data)
+    .then(data => {
+        console.log(data);
+        
+        
+    }
     )
+}
+
 fetch("https://restaurant.stepprojects.ge/api/Products/GetAll")
     .then(pasuxi => pasuxi.json())
     .then((data) => {
