@@ -316,10 +316,7 @@ ul li:hover {
     border: 2px solid #CFCFCF;
     border-radius: 17px;
     cursor: pointer;
-}
-
-.card:hover {
-    box-shadow: 0 0 10px black;
+    animation: cardistvis 0.3s;
 }
 
 .card img {
@@ -372,4 +369,14 @@ ul li:hover {
     background-color: #FF0000;
     color: white;
     border: none;
+}
+
+
+@keyframes cardistvis {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

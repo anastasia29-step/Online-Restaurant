@@ -315,11 +315,6 @@ ul li:hover {
     padding-bottom: 15px;
     border: 2px solid #CFCFCF;
     border-radius: 17px;
-    cursor: pointer;
-}
-
-.card:hover {
-    box-shadow: 0 0 10px black;
 }
 
 .card img {

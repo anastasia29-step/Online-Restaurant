@@ -315,11 +315,6 @@ ul li:hover {
     padding-bottom: 15px;
     border: 2px solid #CFCFCF;
     border-radius: 17px;
-    cursor: pointer;
-}
-
-.card:hover {
-    box-shadow: 0 0 10px black;
 }
 
 .card img {
@@ -362,14 +357,11 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px double rgb(26, 26, 26);
+    border: 2px dashed rgb(26, 26, 26);
     background-color: transparent;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .card .bottom button:hover {
     background-color: #FF0000;
-    color: white;
-    border: none;
 }
