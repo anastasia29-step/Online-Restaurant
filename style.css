@@ -320,7 +320,6 @@ ul li:hover {
 .card:hover{
     box-shadow: 0 0 20px black;
 }
-
 .card img {
     width: 100%;
     height: 202px;
