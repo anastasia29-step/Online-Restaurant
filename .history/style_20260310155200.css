@@ -65,24 +65,16 @@ ul::after {
 
 .beside.active {
     backdrop-filter: blur(10px);
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0,0,0,0.9);
 }
 
 .beside.active::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-image: url("photo/border.png");
-    background-repeat: repeat-x;
     content:"";
     position:absolute;
     bottom:0;
     left:0;
     width:100%;
-    height:5px;
+    height: 70px;
     background-image:url("photo/border.png");
     background-repeat:repeat-x;
 }
@@ -183,7 +175,7 @@ ul li:hover {
     align-items: center;
     padding: 10px;
     background-color: #F1F1F1;
-    border: 1px solid rgb(174, 172, 172);
+    border: 1px solid grey;
     border-radius: 5px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -202,21 +194,6 @@ ul li:hover {
     width: 40%;
     gap: 10px;
     justify-content: flex-start;
-}
-
-.range input[type="range"] {
-    width: 100%;
-    -webkit-appearance: none;
-}
-.range input[type="range"]::-webkit-slider-runnable-track {
-  height: 6px;
-  background: red;
-  border-radius: 10px;
-}
-.range input[type="range"]::-moz-range-track {
-  height: 6px;
-  background: #ddd;
-  border-radius: 10px;
 }
 
 .next input {
