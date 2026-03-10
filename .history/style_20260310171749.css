@@ -357,7 +357,7 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px double rgb(26, 26, 26);
+    border: 2px dotted rgb(26, 26, 26);
     background-color: transparent;
     transition: 0.3s;
     cursor: pointer;
