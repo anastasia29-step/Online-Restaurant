@@ -316,7 +316,6 @@ ul li:hover {
     border: 2px solid #CFCFCF;
     border-radius: 17px;
     cursor: pointer;
-    overflow: visible;
 }
 
 .card:hover {
