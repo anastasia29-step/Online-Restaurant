@@ -345,21 +345,24 @@ ul li:hover {
 }
 
 .card .bottom button {
-    position: relative;
     height: 40px;
     width: 120px;
-    background-color: white;
-    border: 2px solid transparent;
-    border-image: url("photo/bt_border.png") 30 round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    background: white;
     cursor: pointer;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 40px;
-    transition: 0.3s;
 }
 
-.card .bottom button:hover {
-    background-color: #FF0000;
-    color: black;
+.card .bottom button::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-image: url("photo/bt_border.png");
+    background-repeat: repeat-x;
 }
