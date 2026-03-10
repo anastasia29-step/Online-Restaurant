@@ -158,6 +158,7 @@ ul li:hover {
     padding: 60px;
     gap: 10px;
     justify-content: center;
+    background-color: aqua;
 }
 .leftSide{
     width: 30%;
