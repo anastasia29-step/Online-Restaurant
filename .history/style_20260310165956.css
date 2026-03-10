@@ -357,10 +357,7 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
-    position: relative;
-    background: white;
-    cursor: pointer;
+    
     border: 1px solid black;
 }
 
@@ -373,8 +370,4 @@ ul li:hover {
     height: 6px;
     background-image: url("photo/border.png");
     background-repeat: repeat-x;
-}
-
-.card .bottom button:hover::after {
-    width: 100%;
 }

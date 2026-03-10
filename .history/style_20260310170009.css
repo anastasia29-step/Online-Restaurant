@@ -374,7 +374,3 @@ ul li:hover {
     background-image: url("photo/border.png");
     background-repeat: repeat-x;
 }
-
-.card .bottom button:hover::after {
-    width: 100%;
-}
