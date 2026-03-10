@@ -154,11 +154,10 @@ ul li:hover {
     padding-left: 60px;
     gap: 10px;
     justify-content: center;
-    background-color: blue;
 }
 .leftSide{
     width: 30%;
-    background-color: #FFCC00;
+    padding: 80px;
 }
 .filteredCard {
     width: 250px;
