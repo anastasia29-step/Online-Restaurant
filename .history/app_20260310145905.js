@@ -44,13 +44,6 @@ function card(item) {
             </div>`
 }
 
-window.addEventListener("scroll", function(){
 
-    if(window.scrollY > 50){
-        nav.classList.add("active")
-    }else{
-        nav.classList.remove("active")
-    }
 
-})
 

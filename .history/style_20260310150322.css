@@ -51,22 +51,9 @@ ul::after {
     padding-top: 20px;
 }
 
-.beside{
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    padding:20px 170px;
-    transition:0.3s;
-    z-index:1000;
-}
-
-.beside.active{
-    backdrop-filter: blur(10px);
-    background: rgba(0,0,0,0.5);
-    border-bottom:1px solid white;
+.beside {
+    display: flex;
+    justify-content: space-between;
 }
 
 .beside .right {

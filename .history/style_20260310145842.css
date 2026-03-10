@@ -49,24 +49,21 @@ ul::after {
     background-size: cover;
     padding-left: 170px;
     padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: 0.3s;
 }
 
-.beside{
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    padding:20px 170px;
-    transition:0.3s;
-    z-index:1000;
-}
-
-.beside.active{
+.FirstLine.active{
     backdrop-filter: blur(10px);
-    background: rgba(0,0,0,0.5);
-    border-bottom:1px solid white;
+    background: rgba(0,0,0,0.4);
+    border-bottom: 2px solid white;
+}
+
+.beside {
+    display: flex;
+    justify-content: space-between;
 }
 
 .beside .right {
