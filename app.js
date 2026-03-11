@@ -19,6 +19,7 @@ fetch("https://restaurant.stepprojects.ge/api/Products/GetAll")
     .then((data) => {
         data.forEach((item) => right.innerHTML += card(item))
     })
+    .catch(() => right.innerHTML += <h1> Error 404...</h1>)
 
 function card(item) {
     return ` <div class="card">
